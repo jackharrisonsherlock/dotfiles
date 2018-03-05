@@ -1,0 +1,28 @@
+#  Aliases
+
+# Navigation
+alias -- -="cd -"
+
+# Shortcuts
+alias d="cd ~/Dropbox"
+alias gd="cd ~/Google\ Drive"
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias h="history"
+alias repos="cd development/Repositories"
+alias dotfiles="cd development/Repositories/dotfiles"
+alias zshrc="code ~/.zshrc"
+
+# Check Git Status in subfolders
+alias status="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git -c color.status=always status && echo)' \;"
+
+# Updates
+alias brew_update="cd downloads && ./brewery.sh"
+alias update_os='sudo softwareupdate -i -a'
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"

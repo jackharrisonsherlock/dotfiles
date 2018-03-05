@@ -1,0 +1,40 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+.DS_Store?
+._*
+*~
+ehthumbs.db
+Thumbs.db
+.vscode
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+
+
+# Compiled source 
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases 
+*.log
+*.sql
+*.sqlite
+
+# Packages 
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip

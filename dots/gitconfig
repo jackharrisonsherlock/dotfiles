@@ -1,0 +1,125 @@
+# Git configuration.
+
+
+[user]
+	name = Jack Harrison-Sherlock
+	email = jack@harrisonsherlock.com
+
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+
+[color]
+    branch = always
+    diff = always
+    grep = always
+    interactive = always
+    pager = true
+    showbranch = auto
+    status = auto
+    ui = always
+
+[color "interactive"]
+    error = red bold
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red
+    new = green
+    whitespace = white reverse
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+    branch = magenta
+
+[core]
+    pager = less -FRSX
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+	editor = nano
+
+[diff]
+    tool = vimdiff
+
+[difftool]
+    prompt = false
+
+[merge]
+	tool = vimdiff
+
+[alias]
+    # branch
+    b  = branch
+    bc = checkout -b
+    bl = branch -v
+    bL = branch -av
+    bx = branch -d
+    bX = branch -D
+    bm = branch -m
+    bM = branch -M
+    bs = show-branch
+    bS = show-branch -a
+    # checkout
+    co  = checkout
+    # fetch
+    f   = fetch
+    fm  = pull
+    fo  = fetch origin
+    # merge
+    m   = merge
+    mom = merge origin/master
+    # push
+    p   = push
+    pa  = push --all
+    pt  = push --tags
+    # commit
+    c      = commit -v
+    ca     = commit --all -v
+    cm     = commit --message
+    cam    = commit --all --message
+    # diff
+    d    = diff          # Diff working dir to index
+    ds   = diff --staged # Diff index to HEAD
+    dc   = diff --staged # Diff index to HEAD
+    dh   = diff HEAD     # Diff working dir and index to HEAD
+    hub  = browse
+    # index
+    s  = status
+    a  = add
+    ia = add
+    ir = reset
+    # remote
+    re  = remote
+    rel = remote --verbose
+    rea = remote add
+    rex = remote rm
+    rem = remote rename
+
+[push]
+    default = matching
+[mergetool]
+  prompt = false
+[github]
+  user = jackharrisonsherlock
+[grep]
+  lineNumber = true
+[fetch]
+  prune = true
+[rebase]
+  autosquash = true
+[commit]
+  template = ~/.gitmessage
+[credential]
+	helper = osxkeychain
+
+# [url "git@github.com:"]
+#    insteadOf = https://github.com/
+
+	excludesfile = /Users/jackharrison-sherlock/.gitignore_global
