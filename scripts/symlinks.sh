@@ -24,6 +24,10 @@ popd
 ln -s ~/dotfiles/zsh/themes/jhsprompt.zsh-theme $HOME/.oh-my-zsh/themes
 open "${HOME}/dotfiles/iterm/themes/One Dark.itermcolors"
 
+# VS Code
+rm -rf ~/Library/Application\ Support/Code/User
+ln -s ~/dotfiles/vscode/User ~/Library/Application\ Support/Code/User
+
 # Directories
 
 # Remove first so folders don't become nested if this runs more than once

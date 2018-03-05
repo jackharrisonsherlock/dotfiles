@@ -14,6 +14,8 @@ brew cask install dash
 brew cask install openoffice
 brew cask install postman
 brew cask install sequel-pro
+brew cask install docker
+
 
 # Communication
 brew cask install slack
