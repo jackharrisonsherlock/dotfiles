@@ -1,0 +1,13 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 14,
+    "editor.fontFamily": "SF Mono, Fira Mono, Monaco, monospace",
+    "vsicons.dontShowNewVersionMessage": true,
+    "git.enableSmartCommit": true,
+    "team.showWelcomeMessage": false
+}

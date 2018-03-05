@@ -1,0 +1,27 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+cmd+b",
+        "command": "HookyQR.beautifyFile"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+k left",
+        "command": "-workbench.action.splitEditor"
+    },
+    {
+        "key": "shift+cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    }
+]
