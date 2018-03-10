@@ -37,6 +37,9 @@ brew install hub
 brew install go
 brew install python
 
+# AWS
+brew install awscli
+
 # Other
 brew install mas
 
