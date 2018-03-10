@@ -1,7 +1,7 @@
 # .dotfiles
 
 
-![](https://cl.ly/pvB4/download/Image%202018-03-05%20at%208.30.41%20PM.png)
+![](https://cl.ly/q5lE/Image%202018-03-11%20at%209.13.43%20AM.png)
 
 ## Installation 
 
