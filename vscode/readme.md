@@ -12,6 +12,7 @@ Run “Install 'code' command in PATH” from the command palette (View → Comm
 * [Code Outline](https://marketplace.visualstudio.com/items?itemName=patrys.vscode-code-outline)
 * [Go](https://marketplace.visualstudio.com/items?itemName=lukehoban.Go)
 * [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+* [PHP IntelliSense](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense)
 * [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
 * [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons)
 * [One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)
