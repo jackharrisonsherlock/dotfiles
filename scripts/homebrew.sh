@@ -30,12 +30,19 @@ brew install source-highlight
 
 # Git
 brew install git
+brew install git-flow
 brew install cdiff
 brew install hub
 
 # Development
 brew install go
 brew install python
+brew install python3
+brew install delve
+brew install node
+brew install nvm
+brew install sqllite
+brew install yarn
 
 # AWS
 brew install awscli
