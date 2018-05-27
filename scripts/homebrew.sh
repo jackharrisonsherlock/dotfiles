@@ -38,16 +38,22 @@ brew install hub
 brew install go
 brew install python
 brew install python3
+brew install php@7.1
+brew install ruby
 brew install delve
 brew install node
 brew install nvm
 brew install sqllite
 brew install yarn
+brew install neovim
+brew install tmux
 
 # AWS
 brew install awscli
 
 # Other
 brew install mas
+brew install gdrive
+brew install micro
 
 brew cleanup

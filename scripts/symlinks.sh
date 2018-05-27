@@ -21,7 +21,7 @@ ln -sfv $(grealpath ssh-config) "$HOME/.ssh/config"
 popd
 
 # ZSH/Terminal
-ln -s ~/dotfiles/zsh/themes/jhsprompt.zsh-theme $HOME/.oh-my-zsh/themes
+ln -s ~/dotfiles/zsh/themes/common.zsh-theme $HOME/.oh-my-zsh/themes
 open "${HOME}/dotfiles/iterm/themes/One Dark.itermcolors"
 
 # VS Code
