@@ -8,9 +8,9 @@ alias d="cd ~/Dropbox"
 alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
-alias h="history"
-alias repos="cd development/Repositories"
-alias dotfiles="cd development/Repositories/dotfiles"
+alias hs='history | grep'
+alias repos="cd development/repos"
+alias dotfiles="cd development/repos/dotfiles"
 alias zshrc="code ~/.zshrc"
 
 # Check Git Status in subfolders
@@ -24,5 +24,15 @@ alias update_os='sudo softwareupdate -i -a'
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias showfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+
+# Other
+alias myip="curl http://ipecho.net/plain; echo"
+alias ls="colorls"
+
+# Docker
+alias dc="docker-compose"
+alias dcdev="docker-compose -f docker-compose-dev.yml" 
+alias dps="docker ps"
+alias drmf='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
