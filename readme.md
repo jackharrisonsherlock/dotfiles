@@ -1,7 +1,5 @@
-# .dotfiles
-
-
-![](https://cl.ly/rw7C/demo.png)
+<p align="center">.dotfiles</p>
+<p align="center"><img src="https://cl.ly/rw7C/demo.png" height="550"></p>
 
 ## Installation 
 
