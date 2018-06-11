@@ -8,8 +8,8 @@ PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_stat
 RPROMPT='$(common_git_status)'
 
 # Current Directory on the right side prompt
-# PROMPT='$(common_host)$$(common_bg_jobs)$(common_return_status)'
-# RPROMPT='(common_current_dir)$(git_prompt_info) $(git_prompt_status)'
+# PROMPT='$(common_host)$(common_bg_jobs)$(common_return_status)'
+# RPROMPT='$(common_current_dir)$(common_git_status)'
 
 # Prompt with current SHA
 # PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
@@ -23,7 +23,10 @@ common_host() {
     me="%n"
   fi
   if [[ -n $me ]]; then
-    echo "%{$fg[yellow]%}$me%{$reset_color%}:"
+    echo "%{$fg[white]%}$me%{$reset_color%}:"
+  fi
+  if [[ $AWS_VAULT ]]; then
+    echo "%{$fg[red]%}$AWS_VAULT%{$reset_color%}:"
   fi
 }
 
@@ -34,7 +37,7 @@ common_current_dir() {
 
 # Prompt symbol
 common_return_status() {
-  echo -n "%(?.%F{magenta}.%F{red})$COMMON_PROMPT_SYMBOL%f "
+  echo -n "%(?.%F{yellow}.%F{white})$COMMON_PROMPT_SYMBOL%f "
 }
 
 # Git status
@@ -59,6 +62,7 @@ common_git_status() {
     echo -n "${message}"
 }
 
+# Git prompt SHA
 ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{%F{green}%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%} "
 
