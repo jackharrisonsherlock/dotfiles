@@ -9,11 +9,12 @@ symlink() {
 echo "Creating symlinks ..."
 
 pushd ./dots
-symlink_dotfile aliases
-symlink_dotfile gitconfig
-symlink_dotfile gitignore
-symlink_dotfile gitmessage
-symlink_dotfile zshrc
+symlink_dotfile .aliases
+symlink_dotfile .gitconfig
+symlink_dotfile .gitignore
+symlink_dotfile .gitmessage
+symlink_dotfile .tmux
+symlink_dotfile .zshrc
 
 # SSH
 mkdir "$HOME/.ssh"
