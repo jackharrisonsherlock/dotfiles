@@ -36,6 +36,7 @@ brew install hub
 
 # Development
 brew install go
+brew install delve
 brew install python
 brew install python3
 brew install php@7.1
@@ -53,6 +54,8 @@ brew install awscli
 
 # Other
 brew install mas
+brew install tmux
+brew install wget
 brew install gdrive
 brew install micro
 

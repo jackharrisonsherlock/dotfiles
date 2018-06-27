@@ -31,6 +31,7 @@ brew cask install google-backup-and-sync
 # Productivity
 brew cask install alfred
 brew cask install cloudapp
+brew cask install kap
 brew cask install 1password
 brew cask install openoffice
 
