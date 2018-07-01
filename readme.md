@@ -1,4 +1,4 @@
-<p align="center">.dotfiles</p>
+<p align="center"><strong>.dotfiles</strong></p>
 <p align="center"><img src="https://cl.ly/rw7C/demo.png" height="550"></p>
 
 ## Installation 
