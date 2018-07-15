@@ -2,20 +2,16 @@
 COMMON_PROMPT_SYMBOL="❯"
 
 # Left Prompt
-PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
+ PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
 
 # Right Prompt
-RPROMPT='$(common_git_status)'
-
-# Current Directory on the right side prompt
-# PROMPT='$(common_host)$(common_bg_jobs)$(common_return_status)'
-# RPROMPT='$(common_current_dir)$(common_git_status)'
+ RPROMPT='$(common_git_status)'
 
 # Prompt with current SHA
 # PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
 # RPROMPT='$(common_git_status) $(git_prompt_short_sha)'
 
-# Username & SSH
+# Host
 common_host() {
   if [[ -n $SSH_CONNECTION ]]; then
     me="%n@%m"
@@ -23,10 +19,10 @@ common_host() {
     me="%n"
   fi
   if [[ -n $me ]]; then
-    echo "%{$fg[white]%}$me%{$reset_color%}:"
+    echo "%{$fg[green]%}$me%{$reset_color%}:"
   fi
   if [[ $AWS_VAULT ]]; then
-    echo "%{$fg[red]%}$AWS_VAULT%{$reset_color%}:"
+    echo "%{$fg[yellow]%}$AWS_VAULT%{$reset_color%} "
   fi
 }
 
@@ -37,7 +33,7 @@ common_current_dir() {
 
 # Prompt symbol
 common_return_status() {
-  echo -n "%(?.%F{yellow}.%F{white})$COMMON_PROMPT_SYMBOL%f "
+  echo -n "%(?.%F{magenta}.%F{red})$COMMON_PROMPT_SYMBOL%f "
 }
 
 # Git status
@@ -56,7 +52,7 @@ common_git_status() {
 
     local branch=$(git rev-parse --abbrev-ref HEAD 2>/dev/null)
     if [[ -n ${branch} ]]; then
-        message+=" ${message_color}${branch}%f"
+        message+="${message_color}${branch}%f"
     fi
 
     echo -n "${message}"
