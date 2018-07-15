@@ -23,7 +23,7 @@ popd
 
 # ZSH/Terminal
 ln -s ~/dotfiles/zsh/themes/common.zsh-theme $HOME/.oh-my-zsh/themes
-open "${HOME}/dotfiles/iterm/themes/One Dark.itermcolors"
+open "${HOME}/dotfiles/iterm/themes/Subliminal.itermcolors"
 
 # VS Code
 rm -rf ~/Library/Application\ Support/Code/User
