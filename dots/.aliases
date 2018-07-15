@@ -9,12 +9,17 @@ alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
-alias repos="cd development/repos"
-alias dotfiles="cd development/repos/dotfiles"
+alias repos="cd code/repos"
 alias zshrc="code ~/.zshrc"
 
-# Check Git Status in subfolders
+# Git
+alias gcm="git commit --message"
+alias gs="git status"
+alias gp="git pull"
+alias ga="git add"
+alias gl="git log"
 alias status="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git -c color.status=always status && echo)' \;"
+eval "$(hub alias -s)"
 
 # Updates
 alias brew_update="cd downloads && ./brewery.sh"
