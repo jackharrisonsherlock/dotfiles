@@ -1,11 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
-[
-    {
-        "key": "shift+cmd+b",
-        "command": "HookyQR.beautifyFile"
-    },
-    {
-        "key": "cmd+\\",
+[{
+        "key": "cmd+]",
         "command": "workbench.action.splitEditor"
     },
     {
@@ -23,5 +18,32 @@
     {
         "key": "ctrl+alt+t",
         "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+t cmd+]",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+\\",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "shift+cmd+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "-workbench.view.scm"
     }
 ]

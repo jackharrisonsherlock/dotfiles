@@ -1,6 +1,5 @@
 # Git configuration.
 
-
 [user]
 	name = Jack Harrison-Sherlock
 	email = jack@harrisonsherlock.com

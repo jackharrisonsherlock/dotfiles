@@ -46,8 +46,6 @@ brew install node
 brew install nvm
 brew install sqllite
 brew install yarn
-brew install neovim
-brew install tmux
 
 # AWS
 brew install awscli
@@ -55,6 +53,7 @@ brew install awscli
 # Other
 brew install mas
 brew install tmux
+brew install neovim
 brew install wget
 brew install gdrive
 brew install micro
