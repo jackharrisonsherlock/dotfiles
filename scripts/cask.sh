@@ -11,7 +11,6 @@ brew cask install visual-studio-code
 brew cask install atom
 brew cask install iterm2-nightly
 brew cask install hyper
-brew cask install visual-studio-code
 brew cask install phpstorm
 brew cask install dash
 brew cask install postman
