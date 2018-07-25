@@ -1,15 +1,13 @@
 #  Aliases
 
-# Navigation
-alias -- -="cd -"
-
 # Shortcuts
-alias d="cd ~/Dropbox"
+alias db="cd ~/Dropbox"
 alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
 alias repos="cd code/repos"
+alias dotfiles="cd code/repos/dotfiles"
 alias zshrc="code ~/.zshrc"
 
 # Git
@@ -21,13 +19,6 @@ alias gl="git log"
 alias status="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git -c color.status=always status && echo)' \;"
 eval "$(hub alias -s)"
 
-# Updates
-alias brew_update="cd downloads && ./brewery.sh"
-alias update_os='sudo softwareupdate -i -a'
-
-# Recursively delete `.DS_Store` files
-alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
 # Show/hide hidden files in Finder
 alias showfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
@@ -35,6 +26,7 @@ alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false &
 # Other
 alias myip="curl http://ipecho.net/plain; echo"
 alias ls="colorls"
+alias edit="micro"
 
 # Docker
 alias dc="docker-compose"
