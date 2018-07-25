@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Check for homebrew and install if needed
 echo "Installing homebrew ..."
 
@@ -21,9 +23,8 @@ brew install grep --with-default-names
 
 # Install zsh
 brew install zsh
-brew install zsh-syntax-highlighting
-brew install zsh-autosuggestions
 brew install tree
+brew install getantibody/tap/antibody
 
 # Highlighting
 brew install source-highlight

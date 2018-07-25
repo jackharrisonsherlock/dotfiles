@@ -1,4 +1,4 @@
-# Path to your oh-my-zsh installation.
+# oh-my-zsh
 export ZSH=/Users/jackharrison-sherlock/.oh-my-zsh
 
 # Theme
@@ -7,8 +7,8 @@ ZSH_THEME="common"
 # Aliases
 source $HOME/.aliases 
 
-# Plugins
-plugins=(git, vscode, zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
+# Antibody
+source ~/.zsh_plugins.sh
 
 # Colorls
 source $(dirname $(gem which colorls))/tab_complete.sh
@@ -26,21 +26,19 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 }
 
 # Go
-export GOPATH=$HOME/development/go
+export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
 
+# Ruby
+eval "$(rbenv init -)"
+
+# SSH
+export PATH="/usr/local/sbin:$PATH"
+
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 source $ZSH/oh-my-zsh.sh
-
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=239'
-
-# Preferred editor for local and remote sessions
- if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vscode'
- else
-   export EDITOR='nano'
- fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvmexport PATH="/usr/local/opt/php@7.1/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
