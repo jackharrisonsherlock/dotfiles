@@ -49,7 +49,7 @@ brew cask install the-unarchiver
 brew tap buo/cask-upgrade
 
 # Other
-bew cask install font-hack-nerd-font
+brew cask install font-hack-nerd-font
 
 # Install Mac App Store apps
 mas Bear, id: 1091189122
