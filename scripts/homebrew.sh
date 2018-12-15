@@ -47,6 +47,8 @@ brew install node
 brew install nvm
 brew install sqllite
 brew install yarn
+brew install java
+brew install groovy
 
 # AWS
 brew install awscli

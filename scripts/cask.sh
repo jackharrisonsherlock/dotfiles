@@ -4,7 +4,7 @@ brew tap caskroom/cask
 brew tap caskroom/versions
 
 # Browsers
-brew cask install google-chrome-beta
+brew cask install google-chrome
 brew cask install google-chrome-canary
 brew cask install firefox
 
@@ -52,6 +52,5 @@ brew tap buo/cask-upgrade
 brew cask install font-hack-nerd-font
 
 # Install Mac App Store apps
-mas Bear, id: 1091189122
 mas Spark, id: 1176895641
 mas Xcode, id: 497799835
