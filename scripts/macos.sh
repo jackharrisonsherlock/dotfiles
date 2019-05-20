@@ -163,8 +163,8 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
-# Save screenshots to the desktop
-defaults write com.apple.screencapture location /Users/jackharrison-sherlock/Google\ Drive/Other/Screenshots
+# Save screenshots to the Downloads
+defaults write com.apple.screencapture location /Users/jackharrison-sherlock/Downloads
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 defaults write com.apple.screencapture type -string "png"
