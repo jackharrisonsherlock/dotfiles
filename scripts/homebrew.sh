@@ -17,10 +17,6 @@ brew install coreutils
 brew install moreutils
 brew install findutils
 
-# Install more recent versions of some OS X tools.
-brew tap homebrew/dupes
-brew install grep --with-default-names
-
 # Install zsh
 brew install zsh
 brew install tree
@@ -42,7 +38,6 @@ brew install python
 brew install python3
 brew install php@7.1
 brew install ruby
-brew install delve
 brew install node
 brew install nvm
 brew install sqllite
