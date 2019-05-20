@@ -31,6 +31,7 @@ export PATH=$PATH:$GOPATH/bin
 
 # Ruby
 eval "$(rbenv init -)"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # SSH
 export PATH="/usr/local/sbin:$PATH"
@@ -38,7 +39,5 @@ export PATH="/usr/local/sbin:$PATH"
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use # This loads nvm
-
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 source $ZSH/oh-my-zsh.sh
