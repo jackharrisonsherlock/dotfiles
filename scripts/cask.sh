@@ -13,7 +13,6 @@ brew cask install visual-studio-code
 brew cask install atom
 brew cask install iterm2-nightly
 brew cask install hyper
-brew cask install phpstorm
 brew cask install dash
 brew cask install postman
 brew cask install sequel-pro
@@ -45,7 +44,6 @@ brew cask install transmission
 # Mac OS Enhancements
 brew cask install bartender
 brew cask install spectacle
-brew cask install the-unarchiver
 brew tap buo/cask-upgrade
 
 # Other
