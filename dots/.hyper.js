@@ -12,7 +12,7 @@ module.exports = {
         fontSize: 15,
 
         // font family with optional fallbacks
-        fontFamily: "SF Mono",
+        fontFamily: '"SF Mono", "Hack Nerd Font"',
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
         cursorColor: '#72767c',
