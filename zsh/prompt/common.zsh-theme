@@ -1,3 +1,5 @@
+# https://github.com/jackharrisonsherlock/common
+
 # Prompt symbol
 COMMON_PROMPT_SYMBOL="❯"
 
@@ -10,6 +12,7 @@ COMMON_PROMPT_SYMBOL="❯"
 # Prompt with current SHA
 # PROMPT='$(common_host)$(common_current_dir)$(common_bg_jobs)$(common_return_status)'
 # RPROMPT='$(common_git_status) $(git_prompt_short_sha)'
+
 
 # Host
 common_host() {
@@ -33,7 +36,7 @@ common_current_dir() {
 
 # Prompt symbol
 common_return_status() {
-  echo -n "%(?.%F{magenta}.%F{red})$COMMON_PROMPT_SYMBOL%f "
+  echo -n "%(?.%F{yellow}.%F{red})$COMMON_PROMPT_SYMBOL%f "
 }
 
 # Git status
@@ -41,8 +44,8 @@ common_git_status() {
     local message=""
     local message_color="%F{green}"
 
-    local staged=$(git status --porcelain 2>/dev/null | grep -e "^M " -e "^A ")
-    local unstaged=$(git status --porcelain 2>/dev/null | grep -e "^ M" -e "^??")
+    local staged=$(git status --porcelain 2>/dev/null | grep -e "^[MADRCU]")
+    local unstaged=$(git status --porcelain 2>/dev/null | grep -e "^[MADRCU? ][MADRCU?]")
 
     if [[ -n ${staged} ]]; then
         message_color="%F{red}"
