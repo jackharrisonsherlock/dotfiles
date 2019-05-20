@@ -9,25 +9,25 @@ module.exports = {
         updateChannel: 'stable',
 
         // default font size in pixels for all tabs
-        fontSize: 14,
+        fontSize: 15,
 
         // font family with optional fallbacks
-        fontFamily: '"SF Mono", "Fira Code", "Hack Nerd Font"',
+        fontFamily: "SF Mono",
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-        cursorColor: '#FFFFFF',
+        cursorColor: '#72767c',
 
         // `BEAM` for |, `UNDERLINE` for _, `BLOCK` for █
-        cursorShape: 'BEAM',
+        cursorShape: 'BLOCK',
 
         // set to true for blinking cursor
         cursorBlink: false,
 
         // color of the text
-        foregroundColor: '#b7c5d3',
+        foregroundColor: '#bcc4d1',
 
         // terminal background color
-        backgroundColor: '#2a2d37',
+        backgroundColor: '#282d35',
 
         // border color (window, tabs)
         borderColor: '#333',
@@ -52,42 +52,32 @@ module.exports = {
         },
 
         // custom padding (css format, i.e.: `top right bottom left`)
-        padding: '12px 14px',
+        padding: '20px 20px 0px 20px',
 
         // the full list. if you're going to provide the full color palette,
         // including the 6 x 6 color cubes and the grayscale map, just provide
         // an array here instead of a color map object
         colors: {
-            black: '#7F7F7F',
-            red: '#EF6D78',
-            green: '#9CC8A5',
-            yellow: '#F8D7A1',
-            blue: '#82B9CB',
-            magenta: '#B48EAD',
-            cyan: '#A5D6CD',
-            white: '#fffff',
-            lightBlack: '#7F7F7F',
-            lightRed: '#EF6D78',
-            lightGreen: '#9CC8A5',
-            lightYellow: '#F8D7A1',
-            lightBlue: '#82B9CB',
-            lightMagenta: '#B48EAD',
-            lightCyan: '#A5D6CD',
-            lightWhite: '#fffff'
+            black: '#3e4452',
+            red: '#E36C6C',
+            green: '#a7cb8b',
+            yellow: '#fdd65e',
+            blue: '#72767c',
+            magenta: '#d290e4',
+            cyan: '#90e4db',
+            white: '#d0d0d0',
+            lightBlack: '#3e4452',
+            lightRed: '#dbab79',
+            lightGreen: '#a7cb8b',
+            lightYellow: '#fdd65e',
+            lightBlue: '#72767c',
+            lightMagenta: '#d290e4',
+            lightCyan: '#90e4db',
+            lightWhite: '#ffffff'
         },
 
         // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
         // if left empty, your system's login shell will be used by default
-        //
-        // Windows
-        // - Make sure to use a full path if the binary name doesn't work
-        // - Remove `--login` in shellArgs
-        //
-        // Bash on Windows
-        // - Example: `C:\\Windows\\System32\\bash.exe`
-        //
-        // Powershell on Windows
-        // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
         shell: '',
 
         // for setting shell arguments (i.e. for using interactive shellArgs: ['-i'])
