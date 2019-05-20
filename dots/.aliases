@@ -1,13 +1,13 @@
 #  Aliases
 
 # Shortcuts
+alias -- -="cd -"
 alias db="cd ~/Dropbox"
 alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
 alias repos="cd code/repos"
-alias dotfiles="cd code/repos/dotfiles"
 alias zshrc="code ~/.zshrc"
 
 # Git
