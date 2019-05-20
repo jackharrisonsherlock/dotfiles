@@ -15,6 +15,7 @@ symlink_dotfile .aliases
 symlink_dotfile .gitconfig
 symlink_dotfile .gitignore
 symlink_dotfile .gitmessage
+symlink_dotfile .hyper.js
 symlink_dotfile .tmux
 symlink_dotfile .zshrc
 symlink_dotfile .zsh_plugins.txt
@@ -24,15 +25,10 @@ mkdir "$HOME/.ssh"
 ln -sfv $(grealpath ssh-config) "$HOME/.ssh/config"
 popd
 
-# ZSH/Terminal
+# Common Prompt
 ln -s ~/dotfiles/zsh/prompt/common.zsh-theme $HOME/.oh-my-zsh/themes
-open "${HOME}/dotfiles/iterm/themes/Subliminal.itermcolors"
 
 # VS Code
 rm -rf ~/Library/Application\ Support/Code/User
 ln -s ~/dotfiles/vscode/User ~/Library/Application\ Support/Code/User
 
-# Remove first so folders don't become nested if this runs more than once
-rm "$HOME/iterm"
-
-symlink iterm
