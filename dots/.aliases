@@ -1,7 +1,11 @@
 #  Aliases
 
 # Shortcuts
-alias -- -="cd -"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ~="cd ~"
 alias db="cd ~/Dropbox"
 alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
@@ -9,6 +13,15 @@ alias dt="cd ~/Desktop"
 alias hs='history | grep'
 alias repos="cd code/repos"
 alias zshrc="code ~/.zshrc"
+
+# Other
+alias myip="curl http://ipecho.net/plain; echo"
+alias ls="colorls"
+alias edit="micro"
+
+# Show/hide hidden files in Finder
+alias showfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
 # Git
 alias gcm="git commit --message"
@@ -23,14 +36,9 @@ alias gf="git fetch"
 alias status="find . -maxdepth 1 -mindepth 1 -type d -exec sh -c '(echo {} && cd {} && git -c color.status=always status && echo)' \;"
 eval "$(hub alias -s)"
 
-# Show/hide hidden files in Finder
-alias showfiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hidefiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
-
-# Other
-alias myip="curl http://ipecho.net/plain; echo"
-alias ls="colorls"
-alias edit="micro"
+# Code
+alias npmclean="rm -rf node_modules && npm install"
+alias updatenpmruby="npm install npm -g; npm update -g; sudo gem update --system; sudo gem update --no-document"
 
 # Docker
 alias dc="docker-compose"
