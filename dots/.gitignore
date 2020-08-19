@@ -4,9 +4,19 @@ Desktop.ini
 .DS_Store?
 ._*
 *~
+.DS_Store
 ehthumbs.db
 Thumbs.db
 .vscode
+.env
+.gitignore
+.serverless
+.build
+.now
+.vercel
+.next
+public/sitemap.xml
+.mdx-data
 
 # Files that might appear on external disks
 .Spotlight-V100
@@ -37,3 +47,6 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+/node_modules
+node_modules
+node_modules/
