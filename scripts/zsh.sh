@@ -16,6 +16,3 @@ if echo $SHELL | grep /bin/bash > /dev/null 2>&1; then
 else
   echo "zsh is already the default shell ..."
 fi
-
-antibody bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
-antibody update
