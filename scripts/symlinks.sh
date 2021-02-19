@@ -18,7 +18,7 @@ symlink_dotfile .gitmessage
 symlink_dotfile .hyper.js
 symlink_dotfile .tmux
 symlink_dotfile .zshrc
-symlink_dotfile .zsh_plugins.txt
+symlink_dotfile .hyper.js
 
 # SSH
 mkdir "$HOME/.ssh"
@@ -26,7 +26,7 @@ ln -sfv $(grealpath ssh-config) "$HOME/.ssh/config"
 popd
 
 # Common Prompt
-ln -s ~/dotfiles/zsh/prompt/common.zsh-theme $HOME/.oh-my-zsh/themes
+ln -s ~/dotfiles/other/common.zsh-theme $HOME/.oh-my-zsh/themes
 
 # VS Code
 rm -rf ~/Library/Application\ Support/Code/User
