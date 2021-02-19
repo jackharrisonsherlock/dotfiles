@@ -6,12 +6,11 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~"
-alias db="cd ~/Dropbox"
 alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
-alias repos="cd code/repos"
+alias projects="cd documents/code/projects"
 alias zshrc="code ~/.zshrc"
 
 # Other
