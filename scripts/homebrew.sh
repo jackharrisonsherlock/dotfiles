@@ -20,10 +20,8 @@ brew install findutils
 # Install zsh
 brew install zsh
 brew install tree
-brew install getantibody/tap/antibody
-
-# Highlighting
-brew install source-highlight
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 
 # Git
 brew install git
@@ -42,18 +40,68 @@ brew install node
 brew install nvm
 brew install sqllite
 brew install yarn
-brew install java
-brew install groovy
-
-# AWS
+brew install visual-studio-code
+brew install hyper
+brew install postman
+brew install sequel-pro
+brew install docker
+brew install aws-vault
+brew install ngrok
 brew install awscli
+
+# Design
+brew install figma
+
+# Browsers
+brew install google-chrome
+brew install google-chrome-canary
+brew install firefox
+
+# Communication
+brew install slack
+brew install whatsapp
+brew install loom
+
+# Cloud
+brew install google-backup-and-sync
+
+# Productivity
+brew install raycast
+brew install linear-linear
+brew install zoom
+brew install kap
+brew install 1password
+brew install openoffice
+brew install notion
+brew install defaultbrowser
+
+# Media
+brew install catch
+brew install spotify
+brew install vlc
+brew install transmission
+
+# Mac OS Enhancements
+brew install vanilla
+brew install rocket
+brew install hazel
+brew install bettertouchtool
 
 # Other
 brew install mas
 brew install tmux
-brew install neovim
-brew install wget
-brew install gdrive
 brew install micro
+brew install font-hack-nerd-font
+
+# Install Mac App Store apps
+# X Code
+mas install 497799835
+# Reeder
+mas install 1529448980
+# Amphetamine
+mas install 937984704 
+# Instapaper
+mas install 288545208  
+mas install 1481302432 
 
 brew cleanup
