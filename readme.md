@@ -1,5 +1,5 @@
 <p align="center"><strong>.dotfiles</strong></p>
-<p align="center"><img src="https://cl.ly/sxJ0/1.png" height="550"></p>
+<p align="center"><img src="images/screenshot.png" height="550"></p>
 
 ## Installation 
 
