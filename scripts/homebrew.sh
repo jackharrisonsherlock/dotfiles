@@ -91,7 +91,13 @@ brew install bettertouchtool
 brew install mas
 brew install tmux
 brew install micro
+
+# Fonts
 brew install font-hack-nerd-font
+brew install font-new-york
+brew install font-sf-compact     
+brew install font-sf-mono 
+brew install font-sf-pro 
 
 # Install Mac App Store apps
 # X Code
