@@ -7,18 +7,12 @@ ZSH_THEME="common"
 # Aliases
 source $HOME/.aliases 
 
-#Plugins
-plugins=(git vscode)
-
 # Editor
 export EDITOR=nano
 
 # Go
 export GOPATH=$HOME/code/go
 export PATH=$PATH:$GOPATH/bin
-
-# SSH
-export PATH="/usr/local/sbin:$PATH"
 
 # nvm
 export NVM_DIR="$HOME/.nvm"
@@ -32,7 +26,6 @@ export PATH="/opt/homebrew/sbin:$PATH"
 export RBENV_ROOT=/opt/homebrew/opt/rbenv
 export PATH=$RBENV_ROOT/bin:$PATH
 eval "$(rbenv init -)"
-
 
 source $(dirname $(gem which colorls))/tab_complete.sh
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh

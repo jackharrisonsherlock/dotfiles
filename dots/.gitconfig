@@ -121,4 +121,4 @@
 # [url "git@github.com:"]
 #    insteadOf = https://github.com/
 
-	excludesfile = /Users/jackharrison-sherlock/.gitignore_global
+	excludesfile = /Users/jack/.gitignore
