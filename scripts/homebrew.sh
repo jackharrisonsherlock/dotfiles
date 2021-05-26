@@ -28,34 +28,27 @@ brew install git
 brew install git-flow
 brew install cdiff
 brew install hub
+brew install gh
 
 # Development
 brew install go
-brew install delve
-brew install python
-brew install python3
-brew install php@7.1
 brew install ruby
 brew install node
 brew install nvm
-brew install sqllite
-brew install yarn
 brew install visual-studio-code
 brew install hyper
 brew install postman
-brew install sequel-pro
 brew install docker
 brew install aws-vault
 brew install ngrok
 brew install awscli
+brew install stripe/stripe-cli/stripe
 
 # Design
 brew install figma
 
 # Browsers
 brew install google-chrome
-brew install google-chrome-canary
-brew install firefox
 
 # Communication
 brew install slack
@@ -73,7 +66,6 @@ brew install kap
 brew install 1password
 brew install openoffice
 brew install notion
-brew install defaultbrowser
 
 # Media
 brew install catch
@@ -100,14 +92,6 @@ brew install font-sf-mono
 brew install font-sf-pro 
 
 # Install Mac App Store apps
-# X Code
-mas install 497799835
-# Reeder
-mas install 1529448980
-# Amphetamine
-mas install 937984704 
-# Instapaper
-mas install 288545208  
-mas install 1481302432 
-
-brew cleanup
+mas install 497799835 # X Code
+mas install 1529448980 # Reeder
+mas install 937984704  # Amphetamine
