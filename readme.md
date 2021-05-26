@@ -1,6 +1,3 @@
-<p align="center"><strong>.dotfiles</strong></p>
-<p align="center"><img src="images/screenshot.png" height="550"></p>
-
 ## Installation 
 
 ```

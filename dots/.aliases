@@ -11,7 +11,6 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
 alias projects="cd documents/code/projects"
-alias zshrc="code ~/.zshrc"
 
 # Other
 alias myip="curl http://ipecho.net/plain; echo"
@@ -37,7 +36,6 @@ eval "$(hub alias -s)"
 
 # Code
 alias npmclean="rm -rf node_modules && npm install"
-alias updatenpmruby="npm install npm -g; npm update -g; sudo gem update --system; sudo gem update --no-document"
 
 # Docker
 alias dc="docker-compose"
