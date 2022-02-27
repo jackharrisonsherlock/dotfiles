@@ -26,8 +26,6 @@ brew install zsh-syntax-highlighting
 # Git
 brew install git
 brew install git-flow
-brew install cdiff
-brew install hub
 brew install gh
 
 # Development
@@ -42,7 +40,6 @@ brew install docker
 brew install aws-vault
 brew install ngrok
 brew install awscli
-brew install stripe/stripe-cli/stripe
 
 # Design
 brew install figma
@@ -52,6 +49,7 @@ brew install google-chrome
 
 # Communication
 brew install slack
+brew install mimestream
 brew install whatsapp
 brew install loom
 
@@ -59,6 +57,7 @@ brew install loom
 brew install google-backup-and-sync
 
 # Productivity
+brew install cron
 brew install raycast
 brew install linear-linear
 brew install zoom
@@ -74,10 +73,9 @@ brew install vlc
 brew install transmission
 
 # Mac OS Enhancements
-brew install vanilla
+brew install bartender
 brew install rocket
 brew install hazel
-brew install bettertouchtool
 
 # Other
 brew install mas
