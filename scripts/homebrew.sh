@@ -63,14 +63,6 @@ brew install linear-linear
 brew install zoom
 brew install kap
 brew install 1password
-brew install openoffice
-brew install notion
-
-# Media
-brew install catch
-brew install spotify
-brew install vlc
-brew install transmission
 
 # Mac OS Enhancements
 brew install bartender
@@ -90,6 +82,6 @@ brew install font-sf-mono
 brew install font-sf-pro 
 
 # Install Mac App Store apps
-mas install 497799835 # X Code
-mas install 1529448980 # Reeder
-mas install 937984704  # Amphetamine
+mas install 1529448980 #Reeder
+mas install 1136220934 #infuse
+mas install 1502839586 #hand mirror
