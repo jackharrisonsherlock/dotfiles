@@ -65,7 +65,7 @@ brew install kap
 brew install 1password
 
 # Mac OS Enhancements
-brew install bartender
+brew install hiddenbar
 brew install rocket
 brew install hazel
 
