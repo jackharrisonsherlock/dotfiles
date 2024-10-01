@@ -82,6 +82,6 @@ brew install font-sf-mono
 brew install font-sf-pro 
 
 # Install Mac App Store apps
-mas install 1529448980 #Reeder
+mas install 904280696 #Thing3
 mas install 1136220934 #infuse
 mas install 1502839586 #hand mirror
