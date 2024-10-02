@@ -51,10 +51,9 @@ brew install google-chrome
 brew install slack
 brew install mimestream
 brew install whatsapp
-brew install loom
 
-# Cloud
-brew install google-backup-and-sync
+# Media
+brew install spotify
 
 # Productivity
 brew install cron
@@ -67,19 +66,11 @@ brew install 1password
 # Mac OS Enhancements
 brew install hiddenbar
 brew install rocket
-brew install hazel
 
 # Other
 brew install mas
 brew install tmux
 brew install micro
-
-# Fonts
-brew install font-hack-nerd-font
-brew install font-new-york
-brew install font-sf-compact     
-brew install font-sf-mono 
-brew install font-sf-pro 
 
 # Install Mac App Store apps
 mas install 904280696 #Thing3
