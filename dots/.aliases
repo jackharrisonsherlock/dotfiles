@@ -6,11 +6,9 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ~="cd ~"
-alias gd="cd ~/Google\ Drive"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias hs='history | grep'
-alias projects="cd documents/code/projects"
 
 # Other
 alias myip="curl http://ipecho.net/plain; echo"
