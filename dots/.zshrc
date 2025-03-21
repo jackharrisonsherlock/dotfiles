@@ -27,7 +27,8 @@ export RBENV_ROOT=/opt/homebrew/opt/rbenv
 export PATH=$RBENV_ROOT/bin:$PATH
 eval "$(rbenv init -)"
 
-source $(dirname $(gem which colorls))/tab_complete.sh
+# Oh My Zsh
+source $ZSH/oh-my-zsh.sh
+[ -f "$HOME/tab_complete.sh" ] && source "$HOME/tab_complete.sh"
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source $ZSH/oh-my-zsh.sh
