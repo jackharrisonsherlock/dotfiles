@@ -36,9 +36,7 @@ brew install nvm
 brew install visual-studio-code
 brew install hyper
 brew install postman
-brew install docker
 brew install aws-vault
-brew install ngrok
 brew install awscli
 
 # Design
@@ -73,6 +71,7 @@ brew install rocket
 brew install mas
 brew install tmux
 brew install micro
+brew install nordvpn
 
 # Fonts
 brew install font-hack-nerd-font
